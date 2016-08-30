@@ -1,6 +1,6 @@
 {
   "name": "primus-requests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Send named requests and receive responses with primus",
   "main": "lib/index.js",
   "scripts": {
