@@ -1,0 +1,32 @@
+{
+  "name": "primus-requests",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porsager/primus-requests.git"
+  },
+  "keywords": [
+    "primus",
+    "events",
+    "messages",
+    "requests",
+    "websocket",
+    "callbacks"
+  ],
+  "author": "Rasmus Porsager <rasmus@porsager.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porsager/primus-requests/issues"
+  },
+  "homepage": "https://github.com/porsager/primus-requests#readme",
+  "devDependencies": {
+    "primus": "6.0.2",
+    "uws": "0.8.0",
+    "ws": "1.1.1"
+  }
+}
