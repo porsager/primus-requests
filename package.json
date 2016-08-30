@@ -1,10 +1,13 @@
 {
   "name": "primus-requests",
   "version": "0.1.0",
-  "description": "",
+  "description": "Send named requests and receive responses with primus",
   "main": "lib/index.js",
   "scripts": {
     "test": "node tests"
+  },
+  "engines" : {
+    "node" : ">=6.0.0"
   },
   "repository": {
     "type": "git",
