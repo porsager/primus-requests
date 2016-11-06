@@ -5,7 +5,7 @@ Send a named request with data and attach a callback to get the response.
 ## Installation
 
 ```bash
-npm install primus-emitter --save
+npm install primus-requests --save
 ```
 
 After installing with npm just add primus-emitter as a [primus plugin](https://github.com/primus/primus#plugins)
