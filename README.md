@@ -8,7 +8,16 @@ Send a named request with data and attach a callback to get the response.
 npm install primus-requests --save
 ```
 
-After installing with npm just add primus-emitter as a [primus plugin](https://github.com/primus/primus#plugins)
+After installing with npm add primus-requests as a [primus plugin](https://github.com/primus/primus#plugins)
+
+```
+{
+    transformer: ...,
+    plugin: {
+        requests: require('primus-requests')
+    }
+}
+```
 
 ## Usage
 
